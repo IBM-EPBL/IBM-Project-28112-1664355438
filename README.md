@@ -1,6 +1,6 @@
 # IBM-Project-28112-1664355438
 Smart Lender - Applicant Credibility Prediction for Loan Approval
-https://user-images.githubusercontent.com/113525587/202835272-81b6fbac-c7bd-42b0-9a84-a4a27a179680.png
+"C:\Users\91728\Downloads\202835272-81b6fbac-c7bd-42b0-9a84-a4a27a179680.png"
 
  DEMO VIDEO LINK:  https://youtu.be/WgfMF9AZotw 
   
