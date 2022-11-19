@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loan Predictor</title>
+
+</head>
+<style>
+    body{
+        text-align: center;
+    }
+
+</style>
+
+<body>
+        <h2>LOAN PREDICTOR FORM</h2>
+        <p>Fill the form to predict</p>
+        <form action="{{ url_for('predict')}}" method="post">
+          
+                
+                <label>Name</label>
+                <input type="text" required="required" ><br><br>
+                <label>Gender</label>
+                <select type="text" required="required"name="Gender">
+                    <option >MALE</option>
+                    <option>FEMALE</option>
+                </select><br><br>
+                <label>Married</label>
+                <select type="text" required="required"name="Married">
+                    <option>YES</option>
+                    <option>NO</option>
+                </select><br><br>
+                <label>Dependents</label>
+                <select type="number" required="required"name="Dependents">
+                    <option>0</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3+</option>
+                </select><br><br>
+                <label>Education</label>
+                <select type="text"required="required"name="Education">
+                    <option>GRADUATE</option>
+                    <option>NON-GRADUATE</option>
+                </select><br><br>
+                <label>Self Employed</label>
+                <select type="number"required="required"name="Self_Employes">
+                    <option>yes</option>
+                    <option>no</option>
+                </select><br><br>
+                <label>Applicant Income</label>
+                <input type="number" required="required"name="ApplicantIncome"><br><br>
+                <label>CO Applicant Income</label>
+                <input type="number" required="required"name="CoaaplicantIncome"><br><br>
+                <label>Loan Amount</label>
+                <input type="number" required="required"name="LoanAmount"><br><br>
+                <label>Loan Amount Term</label>
+                <select type="text" required="required"name="Loan_Amount_Term">
+                    <option>12</option>
+                    <option>36</option>
+                    <option>60</option>
+                    <option>84</option>
+                    <option>120</option>
+                    <option>180</option>
+                    <option>240</option>
+                    <option>300</option>
+                    <option>360</option>
+                    <option>480</option>
+                    </select><br><br>
+                <label>Credit History</label>
+                <select type="text" required="required" name="Credit_History">
+                    <option>yes</option>
+                    <option>No</option>
+                </select><br><br>
+            
+                <label>Property Area</label>
+                <select type="text" required="required"name="Property_Area">
+                    <option>Urban</option>
+                    <option>Rural</option>
+                    <option>Semiurban</option>
+                    
+                </select><br><br>
+            <div class="container">
+                
+                <a href="./submit2.html">
+                    <button class="btn" data-hover="PREDICT" onclick="submit2.html">
+                        <div>SUBMIT</div>
+                    </button>
+                </a>
+            </div>
+        </form>
+</body>
+</html>
